@@ -7,7 +7,7 @@ end
 
 def batch_badge_creator(attendees)
   attendees.collect do |x|
-binding.pry
+# binding.pry
   badge_maker(attendees)
   end
 end

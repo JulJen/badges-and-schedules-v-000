@@ -17,7 +17,7 @@ def assign_rooms(attendees)
   y = y.to_i + 1
   room_assignments << "Hello, #{x}! You'll be assigned to room #{y}!"
   end
-  # room_assignments
+  room_assignments
 end
 
 def printer(attendees)

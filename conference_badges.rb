@@ -6,8 +6,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  attendees.each do |x|
-    badge_maker(x)
+  attendees.collect do |x|
+    badge_maker(attendees)
   end
 end
 

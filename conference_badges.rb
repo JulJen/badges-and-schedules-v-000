@@ -2,7 +2,7 @@ require 'pry'
 
 # Write your code here.
 def badge_maker(name)
-  "Hello, my name is #{name}."
+  "Hello, y name is #{name}."
 end
 
 def batch_badge_creator(attendees)
@@ -27,4 +27,4 @@ def printer(attendees)
   assign_rooms(attendees).each do |y|
     puts y
   end
-# end
+end
